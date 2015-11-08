@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="180"
+   height="80"
+   id="svg2">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient5246">
+      <stop
+         id="stop5248"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0" />
+    </linearGradient>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="2"
+       height="1"
+       patternTransform="translate(0,0) scale(10,10)"
+       id="Strips1_1white">
+      <rect
+         style="fill:white;stroke:none"
+         x="0"
+         y="-0.5"
+         width="1"
+         height="2"
+         id="rect4581" />
+    </pattern>
+    <linearGradient
+       id="linearGradient3847">
+      <stop
+         id="stop3849"
+         style="stop-color:#ffcf00;stop-opacity:0.90625"
+         offset="0" />
+      <stop
+         id="stop3855"
+         style="stop-color:#ffea00;stop-opacity:0.49803922"
+         offset="0.5" />
+      <stop
+         id="stop3851"
+         style="stop-color:#ffd500;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter5297">
+      <feColorMatrix
+         values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -0.8 -1 0 3.7 -2.4 "
+         in="SourceGraphic"
+         result="fbSourceGraphicAlpha"
+         id="feColorMatrix5299" />
+      <feGaussianBlur
+         result="result0"
+         in="fbSourceGraphicAlpha"
+         stdDeviation="0.5"
+         id="feGaussianBlur5301" />
+      <feSpecularLighting
+         surfaceScale="7"
+         in="result0"
+         specularExponent="6"
+         specularConstant="0.75"
+         result="result8"
+         id="feSpecularLighting5303">
+        <feDistantLight
+           elevation="15"
+           azimuth="235"
+           id="feDistantLight5305" />
+      </feSpecularLighting>
+      <feDiffuseLighting
+         in="result0"
+         lighting-color="#ffffff"
+         result="result6"
+         diffuseConstant="0.2"
+         surfaceScale="20"
+         id="feDiffuseLighting5307">
+        <feDistantLight
+           elevation="25"
+           azimuth="235"
+           id="feDistantLight5309" />
+      </feDiffuseLighting>
+      <feBlend
+         in2="SourceGraphic"
+         mode="screen"
+         result="result7"
+         id="feBlend5311" />
+      <feComposite
+         in2="result7"
+         operator="arithmetic"
+         k1="0"
+         k2="1"
+         k3="1"
+         k4="0"
+         in="result8"
+         result="result9"
+         id="feComposite5313" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         in="result9"
+         result="result2"
+         id="feComposite5315" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-972.36218)"
+     id="layer1">
+    <text
+       x="-1.9428626"
+       y="1164.2333"
+       transform="scale(1.1370419,0.87947505)"
+       id="text5255"
+       xml:space="preserve"
+       style="font-size:54.13498306px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ffed1f;stroke-width:1.3533746;stroke-opacity:0.05150212;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"><tspan
+         x="-1.9428626"
+         y="1164.2333"
+         id="tspan5257"
+         style="fill:#ffffff;stroke:#ffed1f;stroke-width:1.3533746;stroke-opacity:0.12820512">Bubbug</tspan></text>
+  </g>
+</svg>
