@@ -6,24 +6,23 @@ body {
 	background-color: #FCFCFC;
 }
 
-
-
-.container {
-	width: 1080px;
-	margin: 0 auto;
-	padding: 0 10px;
-}
-
  h2 {
  	font-family: Lora , sans-serif;
 	font-size: 35px;
 	color: #313131;
 }
 
-.main-header {
+.container {
+	width: 1080px;
 
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.main-header {
 	padding-top: 5px;
 	padding-bottom: 5px;
+
 	background-color: #1B1B1B;
 	color: #000000;
 	border: 2px solid black;
@@ -70,8 +69,10 @@ body {
 }
 
 .main-menu a {
+	font-family: sans-serif;
 	color: #EBEBEB;
 	text-decoration: none;
+	text-transform: uppercase;
 }
 
 .main-menu a:hover {
@@ -79,18 +80,23 @@ body {
 	text-shadow: 0 0 10px #FFFFFF;
 }
 
-
-
-
 .site-types {
 	min-height: 430px;	
 }
 
 .site-types a {
 	text-decoration: none;
+	color: #F0595C;
 }
 
-.stype1, .stype2, .stype3, .stype4 {
+.site-types a:hover {
+	text-shadow: 0 0 2px #AB3F44;
+}
+
+.stype1, 
+.stype2, 
+.stype3, 
+.stype4 {
 	width: 250px;
 	min-height: 300px;
 	display: inline-block;
@@ -104,6 +110,7 @@ body {
 	margin-bottom: 40px;
 	font-size: 30px;
 	color: #FF1B1B;
+
 }
 
 .stype-footer {
