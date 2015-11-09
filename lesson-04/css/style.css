@@ -1,0 +1,6 @@
+@import url(grid.css);
+
+.wrapper {
+	max-width: 1200px;
+	max-height: 200px;
+}
