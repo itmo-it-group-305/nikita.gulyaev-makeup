@@ -1,24 +1,47 @@
+@import url(//fonts.googleapis.com/css?family=Press+Start+2P|Open+Sans:400,400italic,600,600italic,700,700italic&subset=latin,cyrillic);
 @import url(//necolas.github.io/normalize.css/3.0.2/normalize.css);
 @import "reset.css";
 @import "grid.css";
+@import "menu.css";
 
 .wrapper {
     min-width: 200px;
     max-width: 1200px;
 }
 
-.header {
-    background: #ccc;
+
+body {
+    background: #000;
+    color: #fff;
 }
 
-.content {
-    background: green;
+.form-row label {
+    text-align: right;
 }
 
-.sidebar {
-    background: red;
+.form-control {
+    width: 100%;
 }
 
-.footer {
-    background: #ccc;
+.overlay {
+    background: rgba(255, 0, 255, 0.7);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    /*text-align: center;*/
+    top: 0;
+    width: 100%;
+}
+
+.modal-window {
+    background: #fff;
+    color: #000;
+    margin: 0 auto;
+    padding: 3.125em;
+    height: 200px;
+    width: 50%;
+
+    position: relative;
+    top: 50%;
+    margin-top: -100px;
 }

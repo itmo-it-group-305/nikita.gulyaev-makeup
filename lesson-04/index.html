@@ -8,51 +8,49 @@
 
 <body>
     <div class="wrapper">
-        <div class="row">
-            <div class="col-12 header">
-                <h1>Header</h1>
+        <header>
+            <div class="row">
+                <nav>
+                    <ul class="menu menu-horizontal top-menu">
+                        <li><a href="#top_games">Топ</a></li>
+                        <li><a href="#games">Игры</a></li>
+                        <li><a href="#emulators">Эмуляторы</a></li>
+                        <li><a href="#history">История</a></li>
+                        <li><a href="#about">О проекте</a></li>
+                    </ul>
+                </nav>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-3">Image #1</div>
-            <div class="col-3">Image #2</div>
-            <div class="col-3">Image #3</div>
-            <div class="col-3">Image #4</div>
-        </div>
-        <div class="row">
-            <div class="col-9 content">Content</div>
-            <div class="col-3 sidebar">Sidebar</div>
-        </div>
-        <div class="row">
-            <div class="col-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores dolorem laboriosam quam quidem
-                    repellendus. Assumenda cumque debitis eius, est fuga, id illum ipsam nisi numquam optio provident
-                    quas ratione vero?</p>
-
-                <p>Amet aperiam, assumenda debitis deleniti distinctio ea earum eius eos eum excepturi impedit, in iste
-                    laborum necessitatibus omnis praesentium quam quas quia sequi sit suscipit tempore vero. Autem, eos
-                    perspiciatis!</p>
-
-                <p>Aliquid, amet aspernatur assumenda consequuntur culpa deserunt dolor dolores enim exercitationem
-                    expedita explicabo id illum itaque magnam maiores nam natus, obcaecati perferendis porro quas quasi
-                    soluta unde, vel voluptas voluptatibus.</p>
+        </header>
+        <footer>
+            <div class="row">
+                <div class="col-6">
+                    <form action="#" method="post">
+                        <div class="form-row">
+                            <label class="col-2" for="question_name">Имя:</label>
+                            <div class="col-10">
+                                <input class="form-control" id="question_name" name="question[name]" type="text">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <label class="col-2" for="question_text">Вопрос:</label>
+                            <div class="col-10">
+                                <textarea class="form-control" id="question_text" name="question[text]" type="text"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-10 offset-2">
+                                <input type="submit" value="Отправить">
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="col-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur cupiditate eos harum hic
-                    labore, numquam, possimus quis ratione soluta unde velit vero! Hic in pariatur quae quam sint
-                    temporibus.</p>
+        </footer>
+    </div>
 
-                <p>Animi cumque debitis facilis incidunt neque quisquam repudiandae sunt? At deleniti eaque est facilis
-                    incidunt nisi numquam quaerat quam rem temporibus? Ad corporis harum nisi nulla veniam? Dolorum,
-                    libero, odio.</p>
-
-                <p>Animi at beatae commodi dicta dolorem error est harum ipsa, nemo, nostrum nulla optio perferendis
-                    quisquam quos repellat saepe, veritatis voluptate. Cupiditate exercitationem fugit repellendus sequi
-                    soluta, suscipit. Autem, fugiat?</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 footer">Footer</div>
+    <div class="overlay">
+        <div class="modal-window">
+            <p>This is modal window!</p>
         </div>
     </div>
 </body>
