@@ -1,0 +1,26 @@
+@import url(//necolas.github.io/normalize.css/3.0.2/normalize.css);
+@import "reset.css";
+@import "grid.css";
+@import "menu.css";
+
+.wrapper {
+    min-width: 200px;
+    max-width: 1200px;
+}
+
+body {
+	color: #FFFFFF;
+}
+
+.form-control {
+	width: 100%;
+}
+
+.modal-window {
+	background-color: #FFFFFF;
+	color: #FF6800;
+	padding: 10px;
+	position: absolute;
+	top: 10%;
+	left: 25%;
+}
