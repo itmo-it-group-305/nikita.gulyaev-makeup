@@ -1,0 +1,57 @@
+@import "grid.css";
+@import url(./fonts/novecentowide-demibold-webfont.woff);
+@import url(./fonts/novecentowide-medium-webfont.woff);
+
+body {
+	margin: 0 auto;
+	background-color: #EEEEEE;
+}
+
+header {
+	background-color: #FFFFFF;
+}
+
+.logo img {
+	width: 85%;
+}
+
+.header-menu li,
+.social li {
+	display: inline;
+}
+
+.header-menu li {
+	margin-left: 0.6em;
+}
+
+li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #232323;
+}
+
+.slash {
+	color: #CFCFCF;
+} 
+
+li a:hover {
+	color: #CECECE;
+}
+
+.colum-1,
+.colum-2 {
+	margin-top: 1%;
+	padding: 2%;
+	background-color: #FFFFFF;
+}
+
+.colum-1 img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+
+
+
