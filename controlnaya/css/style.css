@@ -50,6 +50,23 @@ li a:hover {
 	margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+	.logo img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.header-menu,
+	.social {
+		text-align: center;
+	}
+
+	.header-menu li {
+		display: block;
+		border-bottom: 2px solid #eee;
+	}
+}
+
 
 
 
